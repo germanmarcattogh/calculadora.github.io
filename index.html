@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Simple</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora Simple</h1>
+    </header>
+
+    <form id="formCalculadora">
+        <div class="calculadora">
+            <!-- lo pongo en readonly para que no se pueda ingresar cosas por teclado y no procesar por los botones-->
+            <input type="text" id="resultado" name="resultado" readonly> 
+        
+            <div class="botones">
+                <button type="button" id="boton7">7</button>
+                <button type="button" id="boton8">8</button>
+                <button type="button" id="boton9">9</button>
+                <button type="button" id="botonDiv">/</button>
+
+                <button type="button" id="boton4">4</button>
+                <button type="button" id="boton5">5</button>
+                <button type="button" id="boton6">6</button>
+                <button type="button" id="botonMul">*</button>
+
+                <button type="button" id="boton1">1</button>
+                <button type="button" id="boton2">2</button>
+                <button type="button" id="boton3">3</button>
+                <button type="button" id="botonMenos">-</button>
+
+                <button type="button" id="boton0">0</button>
+                <button type="button" id="botonPunto">.</button>
+                <button type="submit" id="botonIgual">=</button>
+                <button type="button" id="botonMas">+</button>
+
+                <button type="button" id="botonBorrar" class="borrar">C</button>
+            </div>
+        </div>
+    </form>
+
+    <footer>
+        <p>© 2025 Mi Calculadora</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
